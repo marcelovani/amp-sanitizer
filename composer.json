@@ -4,6 +4,7 @@
     "homepage": "https://github.com/marcelovani/amp-sanitizer",
     "type": "library",
     "license": "GPL-2.0",
+    "minimum-stability" : "dev",
     "repositories": [
         {
             "type": "vcs",
@@ -20,8 +21,8 @@
         "sabberworm/php-css-parser": "dev-master"
     },
 		"autoload": {
-			"files": {
-				"AMP_Allowed_Tags_Generated": "includes/sanitizers/class-amp-allowed-tags-generated.php"
-			}
+			  "files": [
+				  "includes/sanitizers/class-amp-allowed-tags-generated.php"
+			  ]
 		}
 }
