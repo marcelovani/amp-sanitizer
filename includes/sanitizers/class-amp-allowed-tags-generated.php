@@ -11,6 +11,7 @@
  *
  * phpcs:ignoreFile
  */
+
 class AMP_Allowed_Tags_Generated {
 
 	private static $spec_file_revision = 772;
