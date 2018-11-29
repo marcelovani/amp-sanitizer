@@ -1,0 +1,27 @@
+{
+    "name": "marcelovani/amp-sanitizer",
+    "description": "Consumes AMPHtml rules and generates AMP sanitizers",
+    "homepage": "https://github.com/marcelovani/amp-sanitizer",
+    "type": "library",
+    "license": "GPL-2.0",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/xwp/PHP-CSS-Parser"
+        }
+    ],
+    "require": {
+        "php": "^5.3.6 || ^7.0"
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^0.14.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+        "wimg/php-compatibility": "^8.1",
+        "sabberworm/php-css-parser": "dev-master"
+    },
+		"autoload": {
+			"psr-4": {
+				"": "includes/sanitizers"
+			}
+		}
+}
