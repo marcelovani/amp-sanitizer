@@ -20,8 +20,8 @@
         "sabberworm/php-css-parser": "dev-master"
     },
 		"autoload": {
-			"psr-4": {
-				"": "includes/sanitizers"
+			"files": {
+				"AMP_Allowed_Tags_Generated": "includes/sanitizers/class-amp-allowed-tags-generated.php"
 			}
 		}
 }
