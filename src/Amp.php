@@ -8,11 +8,12 @@
 
 namespace Marcelovani\AMPSanitizer;
 
-class Amp extends \AMP_Allowed_Tags_Generated {
+class Amp {//extends \AMP_Allowed_Tags_Generated {
 
-  static function get_allowed_tags() {
-    return parent::get_allowed_tags();
-  }
+  const TEST=1;
+//  static function get_allowed_tags() {
+//    return parent::get_allowed_tags();
+//  }
 }
 
 //require_once '../includes/sanitizers/class-amp-allowed-tags-generated.php';
