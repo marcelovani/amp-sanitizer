@@ -21,6 +21,8 @@
         "sabberworm/php-css-parser": "dev-master"
     },
 		"autoload": {
-				"psr-4": {"Marcelovani\\AMPSanitizer\\": "src"}
+				"psr-0": {
+					"Marcelovani\\AMPSanitizer\\": "src"
+				}
 		}
 }
