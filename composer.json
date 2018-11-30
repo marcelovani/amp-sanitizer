@@ -21,8 +21,8 @@
         "sabberworm/php-css-parser": "dev-master"
     },
 		"autoload": {
-				"psr-4": {
-					"Marcelovani\\AMPSanitizer\\": "src"
-				}
+            "classmap": [
+                "includes/sanitizers/class-amp-allowed-tags-generated.php",
+            ]
 		}
 }
