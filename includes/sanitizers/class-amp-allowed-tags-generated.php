@@ -16,7 +16,73 @@ class AMP_Allowed_Tags_Generated {
 	private static $spec_file_revision = 772;
 	private static $minimum_validator_revision_required = 348;
 
-	private static $allowed_tags = array(
+  private static $allowed_tags = array(
+    'a' => array(
+      array(
+        'attr_spec_list' => array(
+          '[href]' => array(),
+          'border' => array(),
+          'download' => array(),
+          'href' => array(
+            'blacklisted_value_regex' => '__amp_source_origin',
+            'value_url' => array(
+              'allow_empty' => true,
+              'protocol' => array(
+                'ftp',
+                'geo',
+                'http',
+                'https',
+                'mailto',
+                'maps',
+                'bip',
+                'bbmi',
+                'fb-messenger',
+                'intent',
+                'line',
+                'skype',
+                'sms',
+                'snapchat',
+                'tel', 
+                'tg',
+                'threema',
+                'twitter',
+                'viber',
+                'webcal',
+                'web+mastodon',
+                'whatsapp',
+              ),
+            ),
+          ),
+          'hreflang' => array(),
+          'media' => array(),
+          'name' => array(),
+          'referrerpolicy' => array(),
+          'rel' => array(
+            'blacklisted_value_regex' => '(^|\\s)(components|dns-prefetch|import|manifest|preconnect|prefetch|preload|prerender|serviceworker|stylesheet|subresource|)(\\s|$)',
+          ),
+          'role' => array(),
+          'tabindex' => array(),
+          'target' => array(
+            'value' => array(
+              '_blank',
+              '_self',
+              '_top',
+            ),
+          ),
+          'type' => array(
+            'value_casei' => array(
+              'text/html',
+            ),
+          ),
+        ),
+        'tag_spec' => array(
+          'spec_url' => 'https://www.ampproject.org/docs/reference/spec#links',
+        ),
+      ),
+    ),
+  );
+
+	private static $Xallowed_tags = array(
 		'a' => array(
 			array(
 				'attr_spec_list' => array(
