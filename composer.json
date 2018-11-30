@@ -21,8 +21,8 @@
         "sabberworm/php-css-parser": "dev-master"
     },
 		"autoload": {
-            "classmap": [
-                "includes/sanitizers/class-amp-allowed-tags-generated.php",
-            ]
+                      "classmap": [
+                           "includes/sanitizers/class-amp-allowed-tags-generated.php"
+                       ]
 		}
 }
