@@ -20,9 +20,9 @@
         "wimg/php-compatibility": "^8.1",
         "sabberworm/php-css-parser": "dev-master"
     },
-		"autoload": {
-                      "classmap": [
-                           "includes/sanitizers/class-amp-allowed-tags-generated.php"
-                       ]
-		}
+    "autoload": {
+        "classmap": [
+           "includes/sanitizers/class-amp-allowed-tags-generated.php"
+        ]
+    }
 }
