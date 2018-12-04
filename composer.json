@@ -22,7 +22,9 @@
     },
     "autoload": {
         "classmap": [
-           "includes/sanitizers/class-amp-allowed-tags-generated.php"
+           "includes/sanitizers/class-amp-allowed-tags-generated.php",
+           "includes/class-amp-content.php",
+           "includes/class-amp-content-sanitizer.php"
         ]
     }
 }
